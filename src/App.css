@@ -5,9 +5,15 @@
   text-align: center;
 }
 
+.outer{
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
 .res{
-  
-  text-align: end;
+  width: auto;
+  display: flex;
+  justify-content: end;
 }
 .logo {
   height: 6em;
