@@ -5,13 +5,14 @@ import ResultComponent from './ResultComponent.jsx'; // Import the child compone
 function App() {
   const [formData, setFormData] = useState({
     total: '',
-    p: '',
-    h: '',
-    q: '',
-    f: '',
-    t: '',
+    pound: '',
+    half: '',
+    quater: '',
+    forasi: '',
+    twist: '',
     cd: '',
     jer: '',
+    khoraki: '',
   });
 
   const [submittedData, setSubmittedData] = useState(null); // Store data after submission
