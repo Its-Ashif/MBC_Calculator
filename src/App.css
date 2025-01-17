@@ -55,26 +55,106 @@
 }
 
 
+
+
+
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #444444;
+  color: #333;
+}
+
 .Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
 
 .input-form {
-  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .input-field {
-  padding: 5px;
-  width: 200px;
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #5e5c5c;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #888;
 }
 
 .submit-button {
-  padding: 10px 20px;
-  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Result Display */
 .result {
+  width: 100%;
+  max-width: 400px;
   margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.result pre {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+/* Media Query for Phone Devices */
+@media (max-width: 768px) {
+  .Home {
+    padding: 10px;
+  }
+
+  .input-form {
+    padding: 15px;
+  }
+
+  .input-field {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .submit-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .result {
+    padding: 15px;
+  }
+
+  .result pre {
+    font-size: 14px;
+  }
+}

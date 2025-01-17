@@ -40,6 +40,7 @@ function App() {
             <label htmlFor={key} style={{ marginRight: '10px' }}>
               {key.toUpperCase()}:
             </label>
+            <br></br>
             <input
               type="number"
               id={key}
