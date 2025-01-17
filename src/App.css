@@ -5,13 +5,16 @@
   text-align: center;
 }
 
+.input-form{
+  width: auto;
+}
 .outer{
   width: auto;
   display: flex;
   justify-content: space-between;
 }
 .res{
-  width: 100vw;
+  width: auto;
   display: flex;
   justify-content: end;
 }
