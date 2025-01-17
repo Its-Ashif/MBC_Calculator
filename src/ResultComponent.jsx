@@ -13,10 +13,10 @@ function ResultComponent({ data }) {
       { data.f!=0 && (<div className='outer'><h2 className='res'>Forasi X&nbsp;&nbsp;{data.f}</h2> <h2 className='res'>{ (data.f * 24.6).toFixed(1)}</h2></div>)}
       { data.t!=0 && (<div className='outer'><h2 className='res'>Twist X&nbsp;&nbsp;{data.t}</h2> <h2 className='res'>{data.t * 82}</h2></div>)}
       { data.cd!=0 && (<div className='outer'><h2 className='res'>C.D. X&nbsp;&nbsp;{data.cd}</h2> <h2 className='res'>{data.cd * 82}</h2></div>)}
-      <h2>--------------------------------------------</h2>
+      <h2>--------------------------</h2>
       <h2 className='res'>{(data.total + data.p * 24.5 + data.h * 24.5 + data.q * 26.5 + data.f * 24.6 + data.t * 82 + data.cd * 82).toFixed(1)}</h2>
       <div className='outer'><h2 className='res'>Jer</h2> <h2 className='res'>{data.jer}</h2></div>
-      <h2>--------------------------------------------</h2>
+      <h2>--------------------------</h2>
       <h2 className='res'>{(data.total + data.p * 24.5 + data.h * 24.5 + data.q * 26.5 + data.f * 24.6 + data.t * 82 + data.cd * 82 + data.jer).toFixed(1)}</h2>
     </div>
   );
