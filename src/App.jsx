@@ -11,8 +11,8 @@ function App() {
     forasi: '',
     twist: '',
     cd: '',
-    jer: '',
     khoraki: '',
+    jer: '',
   });
 
   const [submittedData, setSubmittedData] = useState(null); // Store data after submission
